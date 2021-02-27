@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Recipes</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar" id="menu"></div>
+            <h2>Healthy Food, Healthy Life </h2>
+            <a href="">Find Recipes</a>
+            <a href="">Healthy Food Groups</a>
+            <a href="">Benefits of Healthy Eating</a>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class=""></i></a>
+        </div>
+    </header>
+    <div class="drop_search">
+        <label for="foods">Choose a ingredient:</label>
+        <select name="foods" id="foods">
+            <option value="volvo">Apple</option>
+            <option value="saab">Banana</option>
+            <option value="opel">Orange</option>
+            <option value="audi">Grape</option>
+        </select>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="">Submit</button>        
+    </div>
+    <h5 class="or">OR</h5>
+
+    <div class="search">
+        <label>Enter ingredient: </label>
+        <input id="searchBox" class="form-control mr-md-2" type="text" placeholder="Search Recipe">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="">Submit</button>
+    </div>
+    <div class="returned_results"></div>
+
+<script type='text/javascript' src="js/config.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
