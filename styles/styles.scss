@@ -1,7 +1,7 @@
 $mainColor: whitesmoke;
 $navSection: rgb(65, 146, 65);
 $searchSection: rgb(158, 0, 0);
-$carouselSection: rgb(129, 61, 129);
+$carouselSection: rgba(129, 61, 129, 0.267);
 $infoSection: rgb(194, 166, 4); 
 
 html {
@@ -23,9 +23,13 @@ body{
     background-color: $mainColor;
 }
 
-// .look-up {
-//     background-color: rgb(173, 150, 173);
-//   }
+.carousel-caption{
+    font-size: 85px;
+}
+.carousel-caption {
+    font-size: 85px;
+  }
+
 .carousel-item .active img{
     background-color: rgba(255,255,255, .3);
 }
@@ -35,8 +39,20 @@ body{
     background-color: rgba(255,255,255, .1);
 
 }
+.inSearch {
+    margin-top: 5%;
+    font-size: 25px;
+    margin-left: 3%;
+
+}
+#searchBox{
+    width:50%;
+    margin-left: 5%;
+    
+}
+
 #edamam-badge{
-    margin-left: 82%;
+    margin-left: 55%;
     margin-top: 1%;
 }
 .card {
@@ -54,11 +70,40 @@ body{
   box-shadow: 4px 7px 10px rgba(90, 90, 90, 0.8);
 }
 
+.groups {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#Group_foods{
+    margin-left: 15%;
+}
+
+.move {
+    margin-left: 8%;
+    width: 85%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width:5%;
+    
+}
+.Health_ben {
+    offset: 3px;
+}
 
 @media only screen and (min-width: 992px){
     #content{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+    }
+    #edamam-badge{
+        margin-left: 80%;
+        margin-top: 1%;
+    }
+    #Group_foods{
+        margin-left: 30%;
+    }
+    .Health_ben {
+        margin-left: 3%;
     }
 }
