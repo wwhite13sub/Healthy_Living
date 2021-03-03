@@ -87,7 +87,8 @@ body{
     
 }
 .Health_ben {
-    offset: 3px;
+   margin-left: 3%;
+   margin-top: 10%;
 }
 
 @media only screen and (min-width: 992px){
@@ -104,6 +105,14 @@ body{
         margin-left: 30%;
     }
     .Health_ben {
-        margin-left: 3%;
+        margin-left: 8%;
+        margin-top: 5%;
+    }
+    .Health_ben >h1 {
+        margin-left: 20%;
+    }
+    .up {
+        margin-left: 50%;
+        margin-top: 8%;
     }
 }
