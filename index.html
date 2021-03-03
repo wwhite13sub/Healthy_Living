@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="start">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Home</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,10 +25,10 @@
                     <a class="nav-link " aria-current="page" href="#searching">Find Recipe</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Healthy Food Groups</a>
+                    <a class="nav-link" href="#Group_foods">Healthy Food Groups</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Benefits of Healthy Eating</a>
+                    <a class="nav-link" href="#Life">Benefits of Healthy Eating</a>
                   </li>
                   
                     </ul>
@@ -53,7 +53,7 @@
           <div class="carousel-item active">
             <img src="./images/Food_Header1.jpg" class="d-block w-100" alt="Intro-Food">
             <div class="carousel-caption">
-                <div><h2>Healthy Food, Healthy Life</h2></div>
+                <div><h1>Healthy Food, Healthy Life</h1></div>
             </div>
           </div>   
         </div>
@@ -75,23 +75,222 @@
     <!-- <h5 class="or">OR</h5> -->
 
    
-    <div class="inSearch" id="searching">
-        <label>Enter ingredient: </label>  
-        <input id="searchBox" class="form-control mr-md-2" type="text" placeholder="Search Recipe">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="search">Search</button>
+    <div class="inSearch container" id="searching">
+        <label>Enter ingredient: </label>
+        <div class="input-group mb-3">
+            <input type="text" id="searchBox" class="form-control" placeholder="Search Recipe" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="search">Search</button>
+          </div>
     </div>
-    <div class="container look-up">
-        
+
+    <div class="container look-up">        
         <div class="card">
             <div class="card-body">
-                <h3>Returned results</h3>
-                <div id="edamam-badge" data-color="transparent"></div>
+                <h3>Number of Ingredients Found: </h3>
                 <div id="imgCount"></div>
             </div>
           </div>
+          <div id="edamam-badge" data-color="transparent"></div>
         <div id="content" class="returned"></div>
     </div>
+
     
+
+<h1 id="Group_foods">Healthy Food Groups</h1>
+<div id="Food_Group" class=" groups container">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card move mb-3" style="">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/leafyGreens.jpg" width="100%" alt="Greens" style="max-height:300px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Dark Leafy Greens</h5>
+                      <p class="card-text">Kale, Swiss Chard, Collard Greens, Turnip Greens, Spinach</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card move mb-3" style="">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/2_berries.jpg" width="100%" alt="Berries" style="max-height:300px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Berries</h5>
+                      <p class="card-text">Blueberries, Blackberries, Cranberries, Strawberries, Raspberries </p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card move mb-3" style="">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/3_green tea.jpg" width="100%" alt="Tea" style="max-height:300px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Green Tea</h5>
+                      <p class="card-text">Green Tea</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card move mb-3" style="">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/4_eggs.jpg" width="100%" alt="Berries" style="max-height:300px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Eggs</h5>
+                      <p class="card-text">Eggs</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card move mb-3" style="">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/5_legumes.jpg" width="100%" alt="Berries" style="max-height:300px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Legumes</h5>
+                      <p class="card-text">Black Beans</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card move mb-3" style="">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/6_nuts and seeds.jpg" width="100%" alt="Berries" style="max-height:300px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Nuts and Seeds</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card move mb-3" style="">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/7_kefir.jpg" width="100%" alt="Berries" style="max-height:300px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Kefir</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card move mb-3" style="">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/8_garlic.jpg" width="100%" alt="Berries" style="max-height:300px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Garlic</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card move mb-3" style="">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./images/9_olive oil.jpg" width="100%" alt="Berries" style="max-height:300px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Olive Oil</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+          
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+</div>
+
+
+<div class="Health_ben container" id="Life">
+    <h1>Life Benefits of Healthy Eating</h1>
+        <ol>
+            <li>Heart Health</li>
+            <li>Reduced Cancer Risk</li>
+            <li>Better Mood</li>
+            <li>Improved Gut Health</li>
+            <li>Improved Physical Abilities</li>
+            <li>Weight Loss</li>
+            <li>Diabetes Management</li>
+            <li>Strong Bones/Teeth</li>
+            <li>Good Nights Sleep</li>
+            <li>Health of Next Generation</li>
+       </ol>
+</div>
+
+<div class="up">
+    <a href="#start">Back to Top</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 <script type='text/javascript' src="js/config.js"></script>
 <script src="js/script.js"></script>
