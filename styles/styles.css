@@ -15,6 +15,14 @@ body {
   background-color: whitesmoke;
 }
 
+.carousel-caption {
+  font-size: 85px;
+}
+
+.carousel-caption {
+  font-size: 85px;
+}
+
 .carousel-item .active img {
   background-color: rgba(255, 255, 255, 0.3);
 }
@@ -24,8 +32,19 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.inSearch {
+  margin-top: 5%;
+  font-size: 25px;
+  margin-left: 3%;
+}
+
+#searchBox {
+  width: 50%;
+  margin-left: 5%;
+}
+
 #edamam-badge {
-  margin-left: 82%;
+  margin-left: 55%;
   margin-top: 1%;
 }
 
@@ -43,6 +62,27 @@ body {
           box-shadow: 4px 7px 10px rgba(90, 90, 90, 0.8);
 }
 
+.groups {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#Group_foods {
+  margin-left: 15%;
+}
+
+.move {
+  margin-left: 8%;
+  width: 85%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 5%;
+}
+
+.Health_ben {
+  offset: 3px;
+}
+
 @media only screen and (min-width: 992px) {
   #content {
     display: -webkit-box;
@@ -53,6 +93,16 @@ body {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+  }
+  #edamam-badge {
+    margin-left: 80%;
+    margin-top: 1%;
+  }
+  #Group_foods {
+    margin-left: 30%;
+  }
+  .Health_ben {
+    margin-left: 3%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
