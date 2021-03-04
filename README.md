@@ -8,9 +8,13 @@ Overview/Description: Project is to develop a website for searching for Healthy 
 
 ### Details on how to use it or what functionality is offered:
 a) Site users can enter search keyword(s) and click on Submit. App will call Edamam.com with entered keyword(s) and max 25 recipes will be displayed. User can scroll though the returned Recipes. 
+
 b) Site users will be able to see a list of healthy food groups.
-c) Site users will be able to view data on why it is beneficial to eat healthy.  
+
+c) Site users will be able to view data on why it is beneficial to eat healthy. 
+
 d) Site users will be able accomplish the same functionality on mobile and desktop. 
+
 e) Mobile site users will be able to expand/contract the menu bar.
 
 ### Technologies used: 
