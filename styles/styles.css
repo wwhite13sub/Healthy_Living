@@ -15,12 +15,13 @@ body {
   background-color: whitesmoke;
 }
 
-.carousel-caption {
-  font-size: 85px;
+.nav-link {
+  font-family: 'Satisfy', cursive;
 }
 
-.carousel-caption {
-  font-size: 85px;
+.captions > h1 {
+  margin-top: 5%;
+  font-family: 'Courgette', cursive;
 }
 
 .carousel-item .active img {
@@ -32,10 +33,18 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.findings {
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
 .inSearch {
   margin-top: 5%;
   font-size: 25px;
-  margin-left: 3%;
+  border-style: solid;
+  border-width: 40px;
+  border-color: #00459e;
+  padding: 3%;
 }
 
 #searchBox {
@@ -70,6 +79,10 @@ body {
   margin-left: 15%;
 }
 
+#Food_Group {
+  background-color: #69c969;
+}
+
 .move {
   margin-left: 8%;
   width: 85%;
@@ -80,8 +93,15 @@ body {
 }
 
 .Health_ben {
-  margin-left: 3%;
   margin-top: 10%;
+  border-width: 35Px;
+  border-color: Orange;
+  border-style: solid;
+}
+
+.up {
+  margin-left: 35%;
+  padding: 5%;
 }
 
 @media only screen and (min-width: 992px) {
@@ -112,6 +132,40 @@ body {
   .up {
     margin-left: 50%;
     margin-top: 8%;
+  }
+  .inSearch {
+    margin-top: 5%;
+    font-size: 25px;
+    margin-left: 7%;
+    border-style: solid;
+    border-width: 40px;
+    border-color: #00459e;
+    padding: 3%;
+  }
+  .findings {
+    margin-bottom: 5%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .listings {
+    font-size: large;
+  }
+  .up {
+    margin-left: 45%;
+    padding: 3%;
+  }
+  .captions > h1 {
+    font-size: 85px;
+    margin-bottom: 5%;
+    font-family: 'Courgette', cursive;
+  }
+  #Group_foods {
+    margin-left: 32%;
+  }
+  .findings {
+    margin-left: 32%;
+    margin-top: 3%;
   }
 }
 /*# sourceMappingURL=styles.css.map */

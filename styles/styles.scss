@@ -1,8 +1,8 @@
 $mainColor: whitesmoke;
-$navSection: rgb(65, 146, 65);
-$searchSection: rgb(158, 0, 0);
-$carouselSection: rgba(129, 61, 129, 0.267);
-$infoSection: rgb(194, 166, 4); 
+$navSection: rgb(105, 201, 105);
+$searchSection: rgb(0, 69, 158);
+$carouselSection: purple;
+$infoSection:Orange; 
 
 html {
 
@@ -22,14 +22,14 @@ html {
 body{
     background-color: $mainColor;
 }
-
-.carousel-caption{
-    font-size: 85px;
+.nav-link {
+font-family: 'Satisfy', cursive;
 }
-.carousel-caption {
-    font-size: 85px;
-  }
 
+.captions > h1 {
+    margin-top: 5%;
+    font-family: 'Courgette', cursive;
+}
 .carousel-item .active img{
     background-color: rgba(255,255,255, .3);
 }
@@ -39,10 +39,17 @@ body{
     background-color: rgba(255,255,255, .1);
 
 }
+.findings{
+    margin-left: 30%;
+    margin-top: 5%;
+}
 .inSearch {
     margin-top: 5%;
     font-size: 25px;
-    margin-left: 3%;
+    border-style: solid;
+    border-width: 40px;
+    border-color:$searchSection;
+    padding: 3%;
 
 }
 #searchBox{
@@ -76,6 +83,9 @@ body{
 #Group_foods{
     margin-left: 15%;
 }
+#Food_Group{
+    background-color: $navSection;
+}
 
 .move {
     margin-left: 8%;
@@ -87,8 +97,15 @@ body{
     
 }
 .Health_ben {
-   margin-left: 3%;
    margin-top: 10%;
+   border-width: 35Px;
+   border-color: $infoSection;
+   border-style:solid;
+}
+
+.up {
+    margin-left: 35%;
+    padding: 5%;
 }
 
 @media only screen and (min-width: 992px){
@@ -114,5 +131,38 @@ body{
     .up {
         margin-left: 50%;
         margin-top: 8%;
+    }
+    .inSearch {
+        margin-top: 5%;
+        font-size: 25px;
+        margin-left: 7%;
+        border-style: solid;
+        border-width: 40px;
+        border-color:$searchSection;
+        padding: 3%;
+    
+    }
+    .findings {
+        margin-bottom: 5%;
+        justify-content: center;
+    }
+    .listings {
+        font-size: large;
+    }
+    .up{
+        margin-left: 45%;
+        padding: 3%;
+    }
+    .captions > h1 {
+        font-size: 85px;
+        margin-bottom: 5%;
+        font-family: 'Courgette', cursive;
+    }
+    #Group_foods{
+        margin-left: 32%;
+    }
+    .findings{
+        margin-left: 32%;
+        margin-top: 3%;
     }
 }
