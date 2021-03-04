@@ -42,3 +42,20 @@ To see information on Healthy Food Groups: Click on "Healthy Food Groups".
 To see ten benefits of eating healthy: Click on "Benefits of Eating Healthy".
 On mobile device, To display/close navigation links: Toggle menu bar.
 ```
+
+# User Stories
+1.	As a person interested in my health,
+I want to enter my favorite healthy ingredients or select from a list of ingredients
+so that I can get recipes that will help me to eat healthier and give me more variety.
+
+2.	As a person interested in my health,
+I want to view information on healthy food groups
+so that I improve my health by eating the foods that provide the nutrients and vitamins I need.
+
+3.	As a person interested in my health,
+I want to view the advantages of healthy eating
+so that I can be even more motivated to eat healthy foods.
+
+4.	As a person interested in my health,
+I want to view healthy Ingredients and recipes on my mobile, tablet, laptop or desktop
+so that I can learn more regardless of where I am as long as I have an internet-enabled device.
