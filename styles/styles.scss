@@ -24,7 +24,15 @@ body{
 }
 .nav-link {
 font-family: 'Satisfy', cursive;
+font-size: 25px;
 }
+// .nav-link:hover{
+//     background-color: rgb(105, 201, 105);
+// }
+.navbar-light .navbar-nav  .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color:red;
+}
+.navbar-light .navbar-nav .nav-link
 
 .captions > h1 {
     margin-top: 5%;
@@ -165,4 +173,9 @@ font-family: 'Satisfy', cursive;
         margin-left: 32%;
         margin-top: 3%;
     }
+    .nav-link {
+        font-family: 'Satisfy', cursive;
+        font-size: 35px;
+        padding: 2%;
+        }
 }
