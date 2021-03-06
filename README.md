@@ -3,7 +3,7 @@
 README
 
 Name: Wanda White
-
+### Hosting: https://healthyfoodhealthylife.netlify.app/
 Overview/Description: Project is to develop a website for searching for Healthy Recipes. The site is to be used by anyone who is interested in food recipes to generate a healthier lifestyle. The website can be accessed by anyone. The website allows users to enter search keyword(s) and it searches Edamam.com based on those keyword(s). It displays recipes and health labels returned from Edamam.com. The information on the website includes images, a link to visit official source website and information related to the recipe. The site should have all functionality on mobile devices that it has on a desktop.
 
 ### Details on how to use it or what functionality is offered:
