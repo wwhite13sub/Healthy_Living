@@ -7,9 +7,7 @@
     <title>Healthy Recipes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Satisfy&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Courgette&family=Playball&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="styles/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
@@ -60,19 +58,19 @@
             <input type="text" id="searchBox" class="form-control" placeholder="Enter Ingredient" aria-label="Recipient's username" aria-describedby="button-addon2">
             <button class="btn btn-outline-secondary" type="button" id="search">Search</button>
           </div>
-    </div>
+    
 
     <div class="container look-up">        
-        <div class="card">
-            <!-- <div class="card-body">
+        <div class="card mains">
+            <div class="card-body">
                 <h3>Number of Recipes Found: </h3>
                 <div id="imgCount"></div>
-            </div> -->
+            </div>
           </div>
           <div id="edamam-badge" data-color="transparent"></div>
         <div id="content" class="returned"></div>
     </div>
-
+  </div>
     
 
 <h1 id="Group_foods">Healthy Food Groups</h1>
@@ -88,8 +86,7 @@
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">Dark Leafy Greens</h5>
-                      <p class="card-text">Kale, Swiss Chard, Collard Greens, Turnip Greens, Spinach.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <p class="card-text">Kale, Swiss Chard, Collard Greens, Turnip Greens, Spinach.</p>                      
                     </div>
                   </div>
                 </div>
@@ -105,7 +102,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Berries</h5>
                       <p class="card-text">Blueberries, Blackberries, Cranberries, Strawberries, Raspberries. </p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      
                     </div>
                   </div>
                 </div>
@@ -121,7 +118,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Green Tea</h5>
                       <p class="card-text">Green Tea.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      
                     </div>
                   </div>
                 </div>
@@ -137,7 +134,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Eggs</h5>
                       <p class="card-text">Eggs.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      
                     </div>
                   </div>
                 </div>
@@ -153,7 +150,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Legumes</h5>
                       <p class="card-text">Black Beans.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      
                     </div>
                   </div>
                 </div>
@@ -169,7 +166,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Nuts and Seeds</h5>
                       <p class="card-text">Walnuts, Pecans, Almonds, Cashews, Pistachios. </p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      
                     </div>
                   </div>
                 </div>
@@ -185,7 +182,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Kefir</h5>
                       <p class="card-text">Kefir.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      
                     </div>
                   </div>
                 </div>
@@ -201,7 +198,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Garlic</h5>
                       <p class="card-text">Garlic.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      
                     </div>
                   </div>
                 </div>
@@ -257,8 +254,14 @@
 </div>
 
 <div class="up">
-    <a href="#start">Back to Top</a>
+    <strong><a href="#start">Back to Top</a></strong>
 </div>
+
+<footer>
+  <div class="end">
+    <div id="edamam-badge" data-color="white"></div>
+  </div>
+</footer>
 
 
 
