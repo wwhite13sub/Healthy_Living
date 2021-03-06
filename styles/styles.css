@@ -28,18 +28,14 @@ h1 {
 }
 
 .navbar-light .navbar-nav .nav-link
-.captions > h1 {
-  margin-top: 5%;
-  font-family: 'Courgette', cursive;
-}
-
 .carousel-item .active img {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
 .carousel-caption {
-  margin-bottom: 25%;
-  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 45%;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: 'Courgette', cursive;
 }
 
 .findings {
@@ -62,7 +58,7 @@ h1 {
 }
 
 #edamam-badge {
-  margin-left: 45%;
+  margin-left: 40%;
   margin-top: 1%;
 }
 
@@ -97,7 +93,7 @@ h1 {
 }
 
 #Group_foods {
-  margin-left: 18%;
+  margin-left: 23%;
   margin-top: 10%;
 }
 
@@ -133,8 +129,10 @@ h1 {
 
 @media only screen and (min-width: 992px) {
   .captions > h1 {
-    margin-top: 5%;
     font-family: 'Courgette', cursive;
+  }
+  .carousel-caption {
+    margin-bottom: 60%;
   }
   h1 {
     font-family: 'Courgette', cursive;
@@ -219,6 +217,7 @@ h1 {
   }
   .nav-link {
     font-size: 25px;
+    text-decoration: underline;
   }
   .mains {
     width: 50%;
