@@ -6,8 +6,8 @@ searchButton.addEventListener("click", ()=>{
 })
 //function for input value
 function sendData() {
-    let MY_ID = config.MY_KEY;
-    let secretKey = config.SECRET_KEY;
+    let MY_ID = '423bfc7b9770465e0f3a11b2f470b29e';
+    let secretKey = '9b3d82cc';
     
     let searchOutput = document.getElementById("searchBox").value;
     
