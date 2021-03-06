@@ -59,3 +59,5 @@ so that I can be even more motivated to eat healthy foods.
 4.	As a person interested in my health,
 I want to view healthy Ingredients and recipes on my mobile, tablet, laptop or desktop
 so that I can learn more regardless of where I am as long as I have an internet-enabled device.
+
+# Hosting: https://healthyfoodhealthylife.netlify.app/ 
