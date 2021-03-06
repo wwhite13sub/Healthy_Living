@@ -15,8 +15,11 @@ body {
   background-color: whitesmoke;
 }
 
+h1 {
+  font-family: 'Courgette', cursive;
+}
+
 .nav-link {
-  font-family: 'Satisfy', cursive;
   font-size: 25px;
 }
 
@@ -48,26 +51,38 @@ body {
   margin-top: 5%;
   font-size: 25px;
   border-style: solid;
-  border-width: 40px;
+  border-width: 45px;
   border-color: #00459e;
   padding: 3%;
 }
 
 #searchBox {
-  width: 50%;
+  width: 45%;
   margin-left: 5%;
 }
 
 #edamam-badge {
-  margin-left: 55%;
+  margin-left: 45%;
   margin-top: 1%;
 }
 
 .card {
-  margin: 45px;
+  margin: 30px;
   -webkit-box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.4);
           box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.4);
   background-color: rgba(222, 222, 222, 0.5);
+}
+
+.card-body > h3 {
+  width: 100%;
+  font-size: 0.8em;
+  margin-top: 8%;
+}
+
+#imgCount {
+  margin-left: 70%;
+  color: #69c969;
+  font-size: 40px;
 }
 
 .card:hover {
@@ -82,7 +97,8 @@ body {
 }
 
 #Group_foods {
-  margin-left: 15%;
+  margin-left: 18%;
+  margin-top: 10%;
 }
 
 #Food_Group {
@@ -110,7 +126,19 @@ body {
   padding: 5%;
 }
 
+.up a {
+  color: #960dfd;
+  text-decoration: none;
+}
+
 @media only screen and (min-width: 992px) {
+  .captions > h1 {
+    margin-top: 5%;
+    font-family: 'Courgette', cursive;
+  }
+  h1 {
+    font-family: 'Courgette', cursive;
+  }
   #content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -125,19 +153,34 @@ body {
     margin-left: 80%;
     margin-top: 1%;
   }
+  .end {
+    background-color: rgba(223, 225, 226, 0.384);
+    padding: 5%;
+  }
+  #edamam {
+    margin-bottom: 10%;
+  }
   #Group_foods {
     margin-left: 30%;
   }
+  #Food_Group {
+    margin-left: 8%;
+  }
   .Health_ben {
     margin-left: 8%;
-    margin-top: 5%;
+    margin-top: 10%;
   }
   .Health_ben > h1 {
     margin-left: 20%;
   }
   .up {
-    margin-left: 50%;
+    margin-left: 60%;
     margin-top: 8%;
+  }
+  .input-group {
+    width: 51%;
+    margin-top: 5%;
+    margin-left: 23%;
   }
   .inSearch {
     margin-top: 5%;
@@ -150,16 +193,22 @@ body {
   }
   .findings {
     margin-bottom: 5%;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    margin-left: 35%;
+    margin-top: 3%;
   }
   .listings {
     font-size: large;
   }
   .up {
-    margin-left: 45%;
-    padding: 3%;
+    margin-left: 42%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    padding: 1%;
+    font-size: 1.5em;
+  }
+  .up a {
+    color: #960dfd;
+    text-decoration: none;
   }
   .captions > h1 {
     font-size: 85px;
@@ -168,15 +217,25 @@ body {
   }
   #Group_foods {
     margin-left: 32%;
-  }
-  .findings {
-    margin-left: 32%;
-    margin-top: 3%;
+    margin-top: 10%;
+    margin-bottom: 3%;
   }
   .nav-link {
-    font-family: 'Satisfy', cursive;
-    font-size: 35px;
-    padding: 2%;
+    font-size: 25px;
+  }
+  .mains {
+    width: 50%;
+    margin-left: 25%;
+  }
+  .card-body > h3 {
+    width: 60%;
+    font-size: 1em;
+    margin-top: 3%;
+  }
+  #imgCount {
+    margin-left: 80%;
+    color: #69c969;
+    font-size: 40px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
