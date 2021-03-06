@@ -42,7 +42,7 @@ font-size: 25px;
 }
 
 .carousel-caption{
-    margin-bottom: 45%;
+    margin-bottom: 40%;
     background-color: rgba(0,0,0, .1);
     font-family: 'Courgette', cursive;
 
@@ -55,9 +55,9 @@ font-size: 25px;
     margin-top: 5%;
     font-size: 25px;
     border-style: solid;
-    border-width: 45px;
+    border-width: 35px;
     border-color:$searchSection;
-    padding: 3%;
+    padding: 2%;
 
 }
 #searchBox{
@@ -71,10 +71,15 @@ font-size: 25px;
     margin-top: 1%;
 }
 .card {
-    margin: 30px;
+    margin: 20px;
+    margin-left: 0%;
     box-shadow: 4px 7px 10px rgba(0, 0, 0, 0.4);
     background-color: rgba(222, 222, 222, 0.5);
 }
+.main{
+    padding:0;
+}
+
 .card-body > h3 {
     width: 100%;
     font-size: 0.8em;
@@ -101,7 +106,7 @@ font-size: 25px;
 }
 
 #Group_foods{
-    margin-left: 23%;
+    margin-left: 20%;
     margin-top: 10%;
     
 }
@@ -195,8 +200,7 @@ font-size: 25px;
     
     }
     .findings {
-        margin-bottom: 5%;
-        
+        margin-bottom: 5%;        
         margin-left: 35%;
         margin-top: 3%;
        
@@ -240,6 +244,10 @@ font-size: 25px;
         width: 50%;
         margin-left: 25%;
     }
+    .main{
+        padding:2%;
+    }
+    
     .card-body > h3 {
             width: 60%;
             font-size: 1em;
