@@ -36,7 +36,7 @@ Use application in editor.
 
 ### Execution Instructions:
 ```sh
-Open "" website.
+Open "https://healthyfoodhealthylife.netlify.app/" website.
 To search a recipe: Enter search keyword(s) and click "Submit".
 To see information on Healthy Food Groups: Click on "Healthy Food Groups".
 To see ten benefits of eating healthy: Click on "Benefits of Eating Healthy".
