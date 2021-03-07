@@ -104,6 +104,10 @@ h1 {
           box-shadow: 4px 7px 10px rgba(90, 90, 90, 0.8);
 }
 
+.post > img {
+  width: 100%;
+}
+
 .groups {
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -246,6 +250,9 @@ h1 {
     margin-left: 35%;
     color: #69c969;
     font-size: 40px;
+  }
+  .post > img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
