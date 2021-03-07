@@ -83,11 +83,11 @@ h1 {
   width: 100%;
   font-size: 0.5em;
   margin-top: 8%;
-  margin-left: 15%;
+  margin-left: 30%;
 }
 
 #imgCount {
-  margin-left: 30%;
+  margin-left: 38%;
   color: #69c969;
   font-size: 30px;
 }
@@ -218,8 +218,9 @@ h1 {
   }
   .captions > h1 {
     font-size: 85px;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     font-family: 'Courgette', cursive;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
   }
   #Group_foods {
     margin-left: 32%;
@@ -230,19 +231,17 @@ h1 {
     font-size: 25px;
   }
   .mains {
-    width: 50%;
+    width: 40%;
     margin-left: 25%;
-  }
-  .main {
-    padding: 2%;
   }
   .card-body > h3 {
     width: 60%;
     font-size: 1em;
     margin-top: 3%;
+    margin-left: 23%;
   }
   #imgCount {
-    margin-left: 20%;
+    margin-left: 35%;
     color: #69c969;
     font-size: 40px;
   }
