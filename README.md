@@ -20,10 +20,10 @@ e) Mobile site users will be able to expand/contract the menu bar.
 ### Technologies used: 
 - HTML, CSS, SCSS Javascript, Bootstrap, Prettier, DrawIO, GitHub, GoogleFonts.
 ### Future Improvements
-1. Add filters to the drop-down selection criteria (such as vegan, vegetarian, calories, number ingredients).
-2. Add ability to select recipes by type nutrients provided.
-3. Add ability to update selection ingredient list without having to modify code.
-4.  Add short videos that motivate users to eat healthy
+1. Add filters to the search criteria (such as vegan, vegetarian, calories, number ingredients).
+2. List nutrients of the returned recipes
+3. Add page with ability to search based on selection of a healthy food group.
+4. Add short videos that motivate users to eat healthy.
 
 ### Installation Instructions:
 
@@ -45,12 +45,12 @@ On mobile device, To display/close navigation links: Toggle menu bar.
 
 # User Stories
 1.	As a person interested in my health,
-I want to enter my favorite healthy ingredients or select from a list of ingredients
+I want to enter my favorite healthy ingredients 
 so that I can get recipes that will help me to eat healthier and give me more variety.
 
-2.	As a person interested in my health,
-I want to view information on healthy food groups
-so that I improve my health by eating the foods that provide the nutrients and vitamins I need.
+2.	As a person interested in my health and my time,
+I want to see the calories and number of ingredients associated with recipes
+so that I can determine if I want to prepare a dish.
 
 3.	As a person interested in my health,
 I want to view the advantages of healthy eating
