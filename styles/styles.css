@@ -228,7 +228,6 @@ h1 {
   }
   .nav-link {
     font-size: 25px;
-    text-decoration: underline;
   }
   .mains {
     width: 50%;
@@ -243,7 +242,7 @@ h1 {
     margin-top: 3%;
   }
   #imgCount {
-    margin-left: 80%;
+    margin-left: 20%;
     color: #69c969;
     font-size: 40px;
   }

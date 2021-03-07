@@ -35,7 +35,7 @@ function getCard(cardData) {
         <img src="${cardData.recipe.image}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">${cardData.recipe.label}</h5>
-            <p class="card-text">Calories: ${Math.round(cardData.recipe.calories)}</p><p>Number of Ingredients:  ${cardData.recipe.ingredients.length}</p>
+            <p class="card-text">Calories: ${Math.round(cardData.recipe.calories)}</p><p>Ingredients:  ${cardData.recipe.ingredients.length}</p>
             <a href="${cardData.recipe.url}" target="_blank" class="btn btn-primary">Visit Website</a>
         </div>
     </div>
