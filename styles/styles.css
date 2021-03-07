@@ -38,6 +38,11 @@ h1 {
   font-family: 'Courgette', cursive;
 }
 
+.captions > h1 {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+  font-family: 'Courgette', cursive;
+}
+
 .findings {
   margin-left: 30%;
   margin-top: 5%;
@@ -139,9 +144,6 @@ h1 {
 }
 
 @media only screen and (min-width: 992px) {
-  .captions > h1 {
-    font-family: 'Courgette', cursive;
-  }
   .carousel-caption {
     margin-bottom: 60%;
   }
