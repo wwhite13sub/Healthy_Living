@@ -31,12 +31,12 @@ function sendData() {
 
 function getCard(cardData) {
     return  `
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 16rem;">
         <img src="${cardData.recipe.image}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">${cardData.recipe.label}</h5>
             <p class="card-text">Calories: ${Math.round(cardData.recipe.calories)}</p><p>Number of Ingredients:  ${cardData.recipe.ingredients.length}</p>
-            <a href="${cardData.recipe.url}" class="btn btn-primary">Visit Website</a>
+            <a href="${cardData.recipe.url}" target="_blank" class="btn btn-primary">Visit Website</a>
         </div>
     </div>
     `;
