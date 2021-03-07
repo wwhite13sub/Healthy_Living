@@ -1,9 +1,19 @@
 
+
 //Button to retrieve request
-let searchButton = document.querySelector("#search")
+let input = document.querySelector('input');
+let searchButton = document.querySelector("#search");
+
 searchButton.addEventListener("click", ()=>{
     sendData()
 })
+input.addEventListener('keyup', () => {
+    if(input.value.length > 0) {searchButton.removeAttribute('disabled');
+    }else {
+        searchButton.setAttribute('disabled', 'disabled') 
+    }
+});
+
 //function for input value
 function sendData() {
     let MY_ID = '423bfc7b9770465e0f3a11b2f470b29e';
@@ -21,7 +31,7 @@ function sendData() {
 
 function getCard(cardData) {
     return  `
-    <div class="card" style="width: 16rem;">
+    <div class="card" style="width: 18rem;">
         <img src="${cardData.recipe.image}" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">${cardData.recipe.label}</h5>
