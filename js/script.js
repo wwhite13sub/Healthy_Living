@@ -19,7 +19,7 @@ function sendData() {
     let MY_ID = '423bfc7b9770465e0f3a11b2f470b29e';
     let secretKey = '9b3d82cc';    
     let searchOutput = document.getElementById("searchBox").value;    
-    fetch(`https://api.edamam.com/search?app_id=${secretKey}&app_key=${MY_ID}&q=${searchOutput}&imageSize=SMALL&from=0&to=25`)
+    fetch(`https://api.edamam.com/search?app_id=${secretKey}&app_key=${MY_ID}&q=${searchOutput}&from=0&to=25`)
         .then( response => response.json() )
         .then( getApiData )
         .catch( errorMessage );
